@@ -1,0 +1,36 @@
+body{
+    background-color:white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.flex-header{
+    background-color: greenyellow;
+  
+    min-height: 90px;
+}
+.flex-header h1{
+    
+    justify-content: center;
+}
+.flex-main{
+display: flex;
+flex: 1;
+}
+.sideNav{
+    background-color: bisque;
+    flex: 1 1 5rem;
+}
+.flex-article{
+    background-color: whitesmoke;
+    flex: 5 3;
+}
+.flex-aside{
+    background-color: bisque;
+    flex: 1 1 5rem;
+}
+.flex-footer{
+    background-color: greenyellow;
+    min-height: 90px;
+}
